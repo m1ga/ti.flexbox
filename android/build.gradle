@@ -1,0 +1,6 @@
+
+dependencies {
+	// Add the module's library dependencies here.
+	// See:  https://developer.android.com/studio/build/dependencies
+	implementation 'com.google.android.flexbox:flexbox:3.0.0'
+}
