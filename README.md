@@ -2,6 +2,8 @@
 
 <img src="screenshot.png"/>
 
+using https://github.com/google/flexbox-layout
+
 ## Example
 
 ```js
