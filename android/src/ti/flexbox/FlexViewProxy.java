@@ -101,7 +101,7 @@ public class FlexViewProxy extends TiViewProxy {
                     flexboxLayout.setJustifyContent(JustifyContent.SPACE_AROUND);
                 } else if (proxy.getProperty("justifyContent").equals("center")) {
                     flexboxLayout.setJustifyContent(JustifyContent.CENTER);
-                } else if (proxy.getProperty("justifyContent").equals("flex_end")) {
+                } else if (proxy.getProperty("justifyContent").equals("flexEnd")) {
                     flexboxLayout.setJustifyContent(JustifyContent.FLEX_END);
                 } else {
                     flexboxLayout.setJustifyContent(JustifyContent.FLEX_START);
@@ -114,7 +114,7 @@ public class FlexViewProxy extends TiViewProxy {
                     flexboxLayout.setAlignContent(AlignContent.SPACE_AROUND);
                 } else if (proxy.getProperty("alignContent").equals("center")) {
                     flexboxLayout.setAlignContent(AlignContent.CENTER);
-                } else if (proxy.getProperty("alignContent").equals("flex_end")) {
+                } else if (proxy.getProperty("alignContent").equals("flexEnd")) {
                     flexboxLayout.setAlignContent(AlignContent.FLEX_END);
                 } else {
                     flexboxLayout.setAlignContent(AlignContent.FLEX_START);
@@ -127,7 +127,7 @@ public class FlexViewProxy extends TiViewProxy {
                     flexboxLayout.setAlignItems(AlignItems.BASELINE);
                 } else if (proxy.getProperty("alignItems").equals("center")) {
                     flexboxLayout.setAlignItems(AlignItems.CENTER);
-                } else if (proxy.getProperty("alignItems").equals("flex_end")) {
+                } else if (proxy.getProperty("alignItems").equals("flexEnd")) {
                     flexboxLayout.setAlignItems(AlignItems.FLEX_END);
                 } else {
                     flexboxLayout.setAlignItems(AlignItems.FLEX_START);
