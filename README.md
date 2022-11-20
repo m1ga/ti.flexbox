@@ -2,7 +2,7 @@
 
 <img src="screenshot.png"/>
 
-using https://github.com/google/flexbox-layout
+<b>Currently</b>: Android only using https://github.com/google/flexbox-layout
 
 ## Example
 
